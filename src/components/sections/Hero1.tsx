@@ -158,29 +158,29 @@ export const Hero1 = ({ className }: { className?: string }) => {
                 />
               ),
             },
-            {
-              icon: (
-                <div className="w-[140px]">
-                  <Image
-                    src="/lummi.png"
-                    alt="Shape"
-                    width={198}
-                    height={198}
-                    className="  object-cover"
-                  />
-                </div>
-              ),
-              image: (
-                <Image
-                  // src="/Visual.png"
-                  src="/untitled3.png"
-                  alt="Shape"
-                  width={648}
-                  height={448}
-                  className="  object-cover"
-                />
-              ),
-            },
+            // {
+            //   icon: (
+            //     <div className="w-[140px]">
+            //       <Image
+            //         src="/lummi.png"
+            //         alt="Shape"
+            //         width={198}
+            //         height={198}
+            //         className="  object-cover"
+            //       />
+            //     </div>
+            //   ),
+            //   image: (
+            //     <Image
+            //       // src="/Visual.png"
+            //       src="/untitled3.png"
+            //       alt="Shape"
+            //       width={648}
+            //       height={448}
+            //       className="  object-cover"
+            //     />
+            //   ),
+            // },
             
           ].map((i, index) => {
             return (
