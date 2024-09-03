@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 const { default: flattenColorPalette } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config: Config = {
+  darkMode: 'class', // lub 'media' jeśli chcesz używać preferencji systemowych
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",

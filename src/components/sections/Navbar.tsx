@@ -24,9 +24,9 @@ const menuItems = [
 
 export function Navbar({ className }: { className?: string }) {
   return (
-    <header className="fixed top-0 z-[2] bg-[white]  w-full border-b dark:border-neutral-900 border-gray-neutral-400">
+    <header className="fixed top-0 z-[2] bg-[white]  w-full border-b  border-gray-neutral-400">
       <div className="flex w-full h-[60px] max-w-7xl mx-auto px-4">
-        <div className="border-gray-alpha-400 dark:border-neutral-900 gap-4 py-4 w-[260px] ">
+        <div className="border-gray-alpha-400  gap-4 py-4 w-[260px] ">
           <Logo />
         </div>
         <div className="flex items-center justify-between p-4 grow">
@@ -34,8 +34,8 @@ export function Navbar({ className }: { className?: string }) {
           <button
             data-youform-open="whbhvgwx"
             data-youform-position="center"
-          className="bg-black text-white text-sm font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 transition duration-150 ease-in-out"
-          style={{whiteSpace: "nowrap"}}
+            className="bg-black text-white text-sm font-semibold py-2 px-4 rounded-lg hover:bg-gray-800 transition duration-150 ease-in-out"
+            style={{ whiteSpace: "nowrap" }}
           >
             Join Waitlist
           </button>
@@ -55,7 +55,7 @@ export function MobileNav() {
             fill="currentColor"
             strokeWidth="0"
             viewBox="0 0 512 512"
-            className="text-black dark:text-white h-6 w-6"
+            className="text-black  h-6 w-6"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"

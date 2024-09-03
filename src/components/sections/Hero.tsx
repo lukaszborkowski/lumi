@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <section
       className={cn(
-        "relative dark:bg-neutral-950 w-full overflow-hidden",
+        "relative  w-full overflow-hidden",
         // "bg-gradient-to-tr from-[#08102b] via-[#EAEEFE] to-[#EAEEFE]"
       )}
     >

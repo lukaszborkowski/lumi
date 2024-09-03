@@ -11,7 +11,7 @@ export const Hero1 = ({ className }: { className?: string }) => {
   return (
     <section
       className={cn(
-        "relative bg-neutral-50 dark:bg-neutral-950 mx-auto w-full border-b overflow-hidden mt-12",
+        "relative bg-neutral-50  mx-auto w-full border-b overflow-hidden mt-12",
         "",
         className
       )}
@@ -30,11 +30,11 @@ export const Hero1 = ({ className }: { className?: string }) => {
 
       <div className="py-24 ">
         <div className="px-4">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-wide font-bold mb-6 md:mb-8 relative text-center text-neutral-800 dark:text-white max-w-6xl mx-auto">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl tracking-wide font-bold mb-6 md:mb-8 relative text-center text-neutral-800  max-w-6xl mx-auto">
             <span className="block pb-2">Turn Your Logo into a</span> Stunning 3D Masterpiece
           </h1>
 
-          <h2 className="relative font-regular text-base md:text-lg lg:text-xl text-neutral-600 dark:text-neutral-100 tracking-wide mb-6 md:mb-8 text-center max-w-3xl mx-auto antialiased">
+          <h2 className="relative font-regular text-base md:text-lg lg:text-xl text-neutral-600  tracking-wide mb-6 md:mb-8 text-center max-w-3xl mx-auto antialiased">
             Effortlessly Convert Your SVG File into a 3D Obiect with Custom Materials, Lighting and
             Other Settings
           </h2>
