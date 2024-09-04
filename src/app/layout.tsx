@@ -11,8 +11,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Lumi",
-  description: "Effortlessly Convert Your SVG File into a 3D Obiect with Custom Materials, Lighting and Other Settings",
-
+  description:
+    "Effortlessly Convert Your SVG File into a 3D Obiect with Custom Materials, Lighting and Other Settings",
 };
 
 export default function RootLayout({
@@ -22,11 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body>
         <Navbar />
         {children}
       </body>
-     
     </html>
   );
 }
