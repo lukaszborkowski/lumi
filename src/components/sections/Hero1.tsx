@@ -158,6 +158,7 @@ export const Hero1 = ({ className }: { className?: string }) => {
                 />
               ),
             },
+            
             // {
             //   icon: (
             //     <div className="w-[140px]">
